@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "s3-webapp" {
-  source  = "app.terraform.io/certprep/demo-s3-app-module/awss"
+  source  = "app.terraform.io/certprep/demo-s3-app-module/aws"
   name        = var.name
   region = var.region
   prefix = var.prefix
